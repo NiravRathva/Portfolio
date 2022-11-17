@@ -1,0 +1,34 @@
+.projectList{
+    
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.projectListTitle{
+    font-size: 50px;
+    font-weight: 600;
+}
+.projectsList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:480px){
+    .projectList{
+        padding:20px;
+        margin:20px 0px;
+    }
+    .projectListTitle{
+        font-size: 30px;
+    }
+    .projectsList{
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+    }
+}
